@@ -1,0 +1,17 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.banner-details {
+    color: #FFFFFF;
+    /* color: black; */
+}
+
+.banner-details h1 {
+    font-size: 48px;
+}

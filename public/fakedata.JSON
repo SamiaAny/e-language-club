@@ -1,0 +1,67 @@
+ [
+  {
+    "id": 10010101,
+    "crName": "French Course",
+    "price": 100,
+    "img": "https://i.ibb.co/mq1xfH5/edu1.jpg",
+    "instructor": "Thomas Alvin",
+    "teachImg": "https://i.ibb.co/DtRt6H1/pexels-italo-melo-2379004.jpg"
+  },
+  {
+    "id": 10010102,
+    "crName": "English Advance Course",
+    "price": 200,
+    "img": "https://i.ibb.co/grCmqDC/edu4.jpg",
+    "instructor": "Edim Shirin",
+    "teachImg": "https://i.ibb.co/HG8jNQn/pexels-min-an-713312.jpg"
+  },
+  {
+    "id": 10010103,
+    "crName": "Spanish Course",
+    "price": 150,
+    "img": "https://i.ibb.co/0YbzLfP/edu7.jpg",
+    "instructor": "Tony Kikkas",
+    "teachImg": "https://i.ibb.co/P541brq/pexels-godisable-jacob-897002.jpg"
+  },
+  {
+    "id": 10010104,
+    "crName": "Russian Course",
+    "price": 300,
+    "img": "https://i.ibb.co/gvNwywy/edu5.jpg",
+    "instructor": "Adam Zarin",
+    "teachImg": "https://i.ibb.co/kQ9r66f/pexels-pixabay-206362.jpg"
+  },
+  {
+    "id": 10010105,
+    "crName": "English Course For Kids",
+    "price": 100,
+    "img": "https://i.ibb.co/TcdgwZr/edu9.jpg",
+    "instructor": "Zain Manik",
+    "teachImg": "https://i.ibb.co/P541brq/pexels-godisable-jacob-897002.jpg"
+
+  },
+  {
+    "id": 10010106,
+    "crName": "English Spoken",
+    "price": 300,
+    "img": "https://i.ibb.co/TcdgwZr/edu9.jpg",
+    "instructor": "Zain Manik",
+    "teachImg": "https://i.ibb.co/Htp9Xjq/pexels-andrea-piacquadio-819105.jpg"
+  },
+  {
+    "id": 10010107,
+    "crName": "Start with Germeny",
+    "price": 300,
+    "img": "https://i.ibb.co/bbgn1Py/edu2.jpg",
+    "instructor": "John Adam",
+    "teachImg": "https://i.ibb.co/rfLWXVF/pexels-daniel-xavier-1121796.jpg"
+  },
+  {
+    "id": 10010108,
+    "crName": "Italian Language",
+    "price": 200,
+    "img": "https://i.ibb.co/wryjdkS/edu3.jpg",
+    "instructor": "Adward Herry",
+    "teachImg": "https://i.ibb.co/3fcCYBf/pexels-pixabay-220453.jpg"
+  }
+]
