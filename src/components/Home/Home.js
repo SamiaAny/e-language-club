@@ -1,4 +1,7 @@
 import React from 'react';
+import Instructor from '../Instructor/Instructor';
+import ServiceCourse from '../ServiceCourse/ServiceCourse';
+import SiteDescribe from '../SiteDescribe/SiteDescribe';
 import './Home.css';
 
 const Home = () => {
@@ -10,6 +13,9 @@ const Home = () => {
                     <p>Choose from hundred of expert-led courses now</p>
                 </div>
             </div>
+            <SiteDescribe></SiteDescribe>
+            <ServiceCourse></ServiceCourse>
+            <Instructor></Instructor>
         </div>
     );
 };

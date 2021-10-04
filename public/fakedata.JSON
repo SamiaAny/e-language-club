@@ -2,40 +2,55 @@
   {
     "id": 10010101,
     "crName": "French Course",
+    "crDetails": "Start conversation with French language. Not only easy to learn but also making fun while learning.",
     "price": 100,
     "img": "https://i.ibb.co/mq1xfH5/edu1.jpg",
+    "ratings": 4.5,
+    "duration": "7hr 45min",
     "instructor": "Thomas Alvin",
     "teachImg": "https://i.ibb.co/DtRt6H1/pexels-italo-melo-2379004.jpg"
   },
   {
     "id": 10010102,
     "crName": "English Advance Course",
+    "crDetails": "Most helpfull for professional communication.By this you'll become a part of social community where you learn language from others",
     "price": 200,
     "img": "https://i.ibb.co/grCmqDC/edu4.jpg",
+    "ratings": 4.5,
+    "duration": "18hr 30min",
     "instructor": "Edim Shirin",
     "teachImg": "https://i.ibb.co/HG8jNQn/pexels-min-an-713312.jpg"
   },
   {
     "id": 10010103,
     "crName": "Spanish Course",
+    "crDetails": "Only few days spending by learning throug this course you will find comfortable zone when speak spanish.",
     "price": 150,
     "img": "https://i.ibb.co/0YbzLfP/edu7.jpg",
+    "ratings": 4.5,
+    "duration": "5hr",
     "instructor": "Tony Kikkas",
     "teachImg": "https://i.ibb.co/P541brq/pexels-godisable-jacob-897002.jpg"
   },
   {
     "id": 10010104,
     "crName": "Russian Course",
+    "crDetails": "What if you are looking for something slightly obscure or have had trouble finding for learning language elsewhere,definitely try this course.",
     "price": 300,
     "img": "https://i.ibb.co/gvNwywy/edu5.jpg",
+    "ratings": 4.5,
+    "duration": "7hr 30min",
     "instructor": "Adam Zarin",
     "teachImg": "https://i.ibb.co/kQ9r66f/pexels-pixabay-206362.jpg"
   },
   {
     "id": 10010105,
     "crName": "English Course For Kids",
+    "crDetails": "Most effective course where learning is more fun and easy for kids.",
     "price": 100,
     "img": "https://i.ibb.co/TcdgwZr/edu9.jpg",
+    "ratings": 4.5,
+    "duration": "3hr 45min",
     "instructor": "Zain Manik",
     "teachImg": "https://i.ibb.co/P541brq/pexels-godisable-jacob-897002.jpg"
 
@@ -43,24 +58,33 @@
   {
     "id": 10010106,
     "crName": "English Spoken",
+    "crDetails": "Gather interactive experience by taking this course with Zain.This course will help you to speak english fluently.",
     "price": 300,
     "img": "https://i.ibb.co/TcdgwZr/edu9.jpg",
+    "ratings": 4.5,
+    "duration": "7hr 45min",
     "instructor": "Zain Manik",
     "teachImg": "https://i.ibb.co/Htp9Xjq/pexels-andrea-piacquadio-819105.jpg"
   },
   {
     "id": 10010107,
     "crName": "Start with Germeny",
+    "crDetails": "Make this language learning easy and comfortable for someone who take this course.",
     "price": 300,
     "img": "https://i.ibb.co/bbgn1Py/edu2.jpg",
+    "ratings": 4.5,
+    "duration": "8hr 40min",
     "instructor": "John Adam",
     "teachImg": "https://i.ibb.co/rfLWXVF/pexels-daniel-xavier-1121796.jpg"
   },
   {
     "id": 10010108,
     "crName": "Italian Language",
+    "crDetails": "this course give you life time access to learn your own way.You'll become speak fluently througn learning this course.",
     "price": 200,
     "img": "https://i.ibb.co/wryjdkS/edu3.jpg",
+    "ratings": 4.5,
+    "duration": "5hr 45min",
     "instructor": "Adward Herry",
     "teachImg": "https://i.ibb.co/3fcCYBf/pexels-pixabay-220453.jpg"
   }
