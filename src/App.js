@@ -11,6 +11,7 @@ import {
 import About from './components/About/About';
 import AllCourse from './components/All Courses/AllCourse';
 import Contact from './components/Contact/Contact';
+import Error from './components/Error/Error';
 
 function App() {
   return (
@@ -18,18 +19,21 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/courses">
+          <Route exact path="/courses">
             <AllCourse></AllCourse>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route> 
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact></Contact>
           </Route> 
+          <Route path="*">
+            <Error></Error>
+          </Route>
         </Switch>
         <Footer></Footer>
       </Router>

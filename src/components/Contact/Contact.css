@@ -1,0 +1,24 @@
+.contact-text {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-area {
+    background-color: #f2f2f2;
+}
+
+.contact-form,.reach-directly {
+    background-color: #FFFFFF;
+}
+
+.address {
+    padding-left: 30px;
+}
+
+.icon i {
+    font-size: 30px;
+    margin-right: 20px;
+    color: rgb(179, 15, 102);
+}
