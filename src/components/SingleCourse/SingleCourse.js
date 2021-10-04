@@ -1,24 +1,24 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+// import {Card} from 'react-bootstrap';
 
 const SingleCourse = (props) => {
-    const { crName, crDetails, price, img, ratings, duration, instructor, teachImg } = props.course;
+    const { crName, price, img, ratings, duration, instructor, teachImg } = props.course;
     return (
         <div className="col">
-            <Card>
-                <Card.Img variant="top" src={img} />
-                <Card.Body>
-                    <Card.Title>{crName}</Card.Title>
-                    <Card.Text className="d-flex justify-content-between">
-                        <p><small>
-                            <i class="bi bi-clock"></i>{duration}
-                        </small></p>
-                        <p><small>
-                            <i class="bi bi-star-half"></i>{ratings}
-                        </small></p>
-                    </Card.Text>
-                </Card.Body>
-                <Card.Footer className="d-flex align-items-center justify-content-between">
+            <div className="card">
+                <img className="card-img-top" src={img} alt=""/>
+                <div className="card-body">
+                    <h5 className="card-title mb-5">{crName}</h5>
+                    <div className="card-text d-flex justify-content-between">
+                        <div><small>
+                            <i className="bi bi-clock me-2"></i>{duration}
+                        </small></div>
+                        <div><small>
+                            <i className="bi bi-star-half me-2"></i>{ratings}
+                        </small></div>
+                    </div>
+                </div>
+                <div className="card-footer d-flex align-items-center justify-content-between">
                     <div className="author-img">
                         <img src={teachImg} alt="" />
                         <small className="ms-2">{instructor}</small>
@@ -26,8 +26,8 @@ const SingleCourse = (props) => {
                     <div className="price-tag mt-3">
                         <p>${price}</p>
                     </div>
-                </Card.Footer>
-            </Card>
+                </div>
+            </div>
         </div>
     );
 };

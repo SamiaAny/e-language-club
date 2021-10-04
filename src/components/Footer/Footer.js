@@ -21,10 +21,10 @@ const Footer = () => {
                 </div>
                 <div className="col-md-4">
                     <div className="icon-footer">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-linkedin"></i>
+                        <i className="bi bi-facebook"></i>
+                        <i className="bi bi-instagram"></i>
+                        <i className="bi bi-whatsapp"></i>
+                        <i className="bi bi-linkedin"></i>
                     </div>
                     <br />
                     <div className="text-center">

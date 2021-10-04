@@ -2,7 +2,7 @@ import React from 'react';
 import useService from '../../hooks/useService';
 import img from '../../img/edu2.jpg';
 import SingleInstructor from '../SingleInstructor/SingleInstructor';
-import {Button,InputGroup,FormControl} from 'react-bootstrap';
+// import {Button,InputGroup,FormControl} from 'react-bootstrap';
 import './About.css';
 
 const About = () => {
@@ -38,17 +38,15 @@ const About = () => {
             <div className="subscribe-section text-center">
                 <h1>Join Our Students Community</h1>
                 <p>subscribe to get new updated courses and offer</p>
-                <InputGroup className="mb-3 w-50 mx-auto">
-                    <FormControl
-                        placeholder="Enter your email"
-                        type="email"
-                        aria-label="Recipient's username"
-                        aria-describedby="basic-addon2"
-                    />
-                    <Button variant="outline-dark" id="button-addon2">
+                <div className="input-group mb-3 w-50 mx-auto">
+                    <input type="email" class="form-control" placeholder="Enter your email" />
+                    {/* <Button variant="outline-dark" id="button-addon2">
                         Subscribe
-                    </Button>
-                </InputGroup>
+                    </Button> */}
+                    <button className="btn btn-dark">
+                        Subscribe
+                    </button>
+                </div>
             </div>
         </div>
     );

@@ -14,9 +14,9 @@ const SingleInstructor = (props) => {
                     <h4>{instructor}</h4>
                     <p>{crName}</p>
                     <div className="social-media d-flex justify-content-evenly">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-linkedin"></i>
+                        <i className="bi bi-facebook"></i>
+                        <i className="bi bi-instagram"></i>
+                        <i className="bi bi-linkedin"></i>
                     </div>
                 </div>
             </div>

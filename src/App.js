@@ -1,17 +1,14 @@
 import './App.css';
-import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home/Home';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import Error from './components/Error/Error';
+import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import AllCourse from './components/All Courses/AllCourse';
-import Contact from './components/Contact/Contact';
-import Error from './components/Error/Error';
+import Home from './components/Home/Home';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -19,18 +16,21 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/courses">
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/courses">
             <AllCourse></AllCourse>
           </Route>
-          <Route exact path="/about">
+          <Route path="/about">
             <About></About>
-          </Route> 
-          <Route exact path="/contact">
+          </Route>
+          <Route path="/contact">
             <Contact></Contact>
-          </Route> 
+          </Route>
           <Route path="*">
             <Error></Error>
           </Route>
